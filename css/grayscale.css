@@ -143,8 +143,8 @@ a {
 #download {
     position: relative;
     background-image: url("img/branding.png");
-    background-position: bottom;
     background-size: cover;
+    background-position: bottom;
     background-color: #FFFFFF;
     height: 100vh;
     width: 100%;
@@ -154,16 +154,17 @@ a {
 @media (max-width: 1024px) {
   #download {
     background: url("img/m-branding.png");
-    background-position: bottom;
     background-size: cover;
+    background-position: bottom;
+    
   }
 }
 
 @media (max-width: 720px) {
   #download {
     background: url("img/s-branding.png");
-    background-position: bottom;
     background-size: cover;
+    background-position: bottom;
   }
   .headbtn {
     visibility: hidden;
