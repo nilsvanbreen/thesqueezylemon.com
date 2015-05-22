@@ -383,15 +383,27 @@ a:focus {
     margin-left: 20px;
     margin-bottom: 20px;
 }
-
-.homebtn{
-    position: absolute;
-    font-size: 5px;
-    bottom: 1px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+.contactbtn{
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 20px;
 }
+.homebtn{
+   
+    float: left;
+    font-size: 5px;
+    
+    
+}
+.socialbtn{
+   float: right;
 
+   bottom: 0px;
+  
+}
+.facebook {
+    margin-right: 5px;
+}
 
 .intro .intro-body .brand-heading {
     font-size: 20px;
