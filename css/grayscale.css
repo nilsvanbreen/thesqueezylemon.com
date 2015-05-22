@@ -526,10 +526,30 @@ input{
 
 
 }
+.sendtoborder p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #04683d;
+}
+
+.sendtoborder {
+    border-style: solid;
+    border-width: 1px;
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: left;
+    text-indent: 6px;
+    padding-top: 3px;
+    margin-bottom: 15px;
+    border-color: #04683d;
+
+
+}
 
 .send input{
     color: #09d193;
-    background-color: #666;
+    background-color: #04683d;
     font-style: capitalize;
     font-weight: 700;
     font-size: 16px;
@@ -588,6 +608,11 @@ label{
 
 .send{
     float: center;
+}
+
+.textmargin p{
+    margin-bottom: 20px;
+
 }
 .download-section {
     color: #666666;
