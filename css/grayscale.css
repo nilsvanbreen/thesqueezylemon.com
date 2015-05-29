@@ -10,9 +10,11 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color:;
+    background-color: #09d193;
 }
-
+::-webkit-scrollbar { 
+    display: none; 
+}
 html {
     width: 100%;
     height: 100%;
@@ -68,6 +70,7 @@ a {
     width: 100%;
     padding-top: 10%;
     color: #09d193;
+
 }
 .marginhead{
     margin-bottom: 25px;
@@ -110,6 +113,7 @@ a {
 
 .navbar-brand .page-scroll{
     position: relative;
+    
 }
 
 .white-icon{
@@ -150,6 +154,26 @@ a {
     width: 100%;
     padding-top: 10%;
 }
+#redhood {
+    position: relative;
+    background-image: url("img/redhood.jpg");
+    background-size: cover;
+    background-position: bottom right;
+    background-color: #FFFFFF;
+    height: 100vh;
+    width: 100%;
+    padding-top: 10%;
+}
+#rkvastgoed{
+    position: relative;
+    background-image: url("img/rkvastgoed.jpg");
+    background-size: cover;
+    background-position: bottom right;
+    background-color: #FFFFFF;
+    height: 100vh;
+    width: 100%;
+    padding-top: 10%;
+}
 
 @media (max-width: 1024px) {
   #download {
@@ -171,6 +195,7 @@ a {
   }
   #about {
     height: 170vh;
+    padding-top: 20%;
   }
 }
 
@@ -187,6 +212,14 @@ a {
 #download .btn-circle {
     border-color: #09d193;
     color: #09d193;
+}
+#redhood .btn-circle {
+    border-color: #09d193;
+    color: #09d193;
+}
+#rkvastgoed .btn-circle {
+    border-color: #333;
+    color: #333;
 }
 
 .row-centered {
@@ -541,7 +574,7 @@ input{
 .sendtoborder p{
     font-size: 14px;
     font-weight: 400;
-    color: #04683d;
+    color: #333;
 }
 
 .sendtoborder {
@@ -554,14 +587,14 @@ input{
     text-indent: 6px;
     padding-top: 3px;
     margin-bottom: 15px;
-    border-color: #04683d;
+    border-color: #333;
 
 
 }
 
 .send input{
     color: #09d193;
-    background-color: #04683d;
+    background-color: #333;
     font-style: capitalize;
     font-weight: 700;
     font-size: 16px;
@@ -721,19 +754,50 @@ ul.banner-social-buttons {
 @media(max-height: 601px){
    
     #about {
-        padding-top: 8%;
+        padding-top: 20%;
     }
     #about p{
     margin-bottom: 5px;
     }
     
+}
 
+@media (max-height: 376px) {
+    #about {
+        padding-top: 15%;
+        height: 230vh;
+    }
+    #download {
+         background-position: bottom;  
+    }
+
+    #download h2{
+        text-align: left;
+        font-size: 24px;
+        margin-left: 5%;
+
+    }
 }
 
 @media (max-height: 569px){
     #contact {
         padding-top: 8%;
         height: 125vh;
+    }
+       .white-icon{
+        visibility: hidden;
+
+    }
+    .navbar-brand{
+        padding-left: 0%;
+    }
+    .green-icon{
+        visibility: hidden;
+    }
+ 
+    .logofontposition{
+        padding-left: 0%;
+        float: left;
     }
 }
 
