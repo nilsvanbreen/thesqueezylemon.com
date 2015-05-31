@@ -76,6 +76,19 @@ a {
     margin-bottom: 25px;
 }
 
+.bglinks{
+    background-color: rgba(9, 209, 147, 0.8);
+    margin-right: 5%;
+}
+.bglinkscontact{
+     background-color: rgba(9, 209, 147, 0.8);
+}
+
+.contactborder {
+border-style: solid;
+border-width: 2px;
+border-color: #fff;
+}
 
 #about p{
     color: #b3b3b3;
@@ -108,10 +121,11 @@ a {
 
 }
 .logofontposition{
-    padding-left: 20%;
+    padding-left: 45px;
 }
 
 .navbar-brand .page-scroll{
+
     position: relative;
     
 }
@@ -123,14 +137,20 @@ a {
     position: absolute;
 }
 
-.navbar-fixed-top li a{
-    color: #09d193;
-}
 .top-nav-collapse li a{
     color: #fff;
+    background-color: #09d193;
 }
+
+.top-nav-collapse .contactborder {
+border-style: solid;
+border-width: 2px;
+border-color: #fff;
+}
+
+
 .navbar-fixed-top .navbar-brand{
-    color: #09d193;
+    color: #fff;
     padding-top: 6px;
 }
 
@@ -317,7 +337,6 @@ a:focus {
 
 .navbar-custom .nav li.active {
     outline: none;
-    background-color: rgba(255,255,255,.3);
     border-radius: 15px;
     
     }
@@ -332,8 +351,9 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
-    background-color: transparent;
+    color: #333;
+    background-color: rgba(255,255,255,.8);
+    border-color: #333;
 }
 
 .navbar-custom .nav li a:focus,
@@ -384,6 +404,21 @@ a:focus {
 }
 
 
+.bg {
+  background: url('img/bg.jpg') center;
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top:0;
+  left:0;
+  z-index: -1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .intro {
     position: relative;
     display: table;
@@ -392,30 +427,45 @@ a:focus {
     padding-top: 50px;
     text-align: center;
     color: #09d193;
-    background: bottom center scroll;
-    background-color: #f2f2f2;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  
 }
 
+.intro h1{
+      padding-top: 10%;
+}
 
 .intro .intro-body {
-     background-image: url("img/bgheader-01.png");
+     background-image: url("img/bkfront.png");
      background-position: bottom;
      background-size: cover; 
+     bottom: -80px;
     position: relative;
     display: table-cell;
-     padding-top: 10%;
+   
 
 }
+
 .headbtn{
     position: absolute;
     bottom: 1px;
     margin-left: 20px;
     margin-bottom: 20px;
 }
+
+.one {
+    margin-bottom: 100px;
+}
+
+#intro .btn-circle {
+    border-color: #fff;
+    color: #fff;
+    background-color: rgba(9,209,147,0.7);
+}
+
+.touch a li{
+    display: inline;
+}
+
 .contactbtn{
     margin-right: 2%;
     margin-left: 2%;
@@ -439,7 +489,7 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 20px;
+    color: #fff;
 }
 
 .intro .intro-body .intro-text {
@@ -448,13 +498,14 @@ a:focus {
 
 @media(min-width:768px) {
     .intro {
+        text-align: center;
         position: relative;
         height: 100vh;
         padding: 0;
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .intro .intro-body .intro-text {
@@ -748,6 +799,14 @@ ul.banner-social-buttons {
         text-align: center;
     }
 
+    #intro h1{
+        font-size: 25px;
+    }
+
+    .titlehead{ 
+        margin-top: -80px;
+    }
+
 }
 
 
@@ -810,6 +869,21 @@ ul.banner-social-buttons {
 
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .titlehead {
+        margin-top: 0px;
+    }
+    .intro .intro-body {
+     background-image: url("img/bkfront.png");
+     background-position: bottom;
+     background-size: cover; 
+     bottom: -40px;
+    position: relative;
+    display: table-cell;
     }
 }
 
