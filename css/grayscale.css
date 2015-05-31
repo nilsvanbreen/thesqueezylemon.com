@@ -885,6 +885,40 @@ ul.banner-social-buttons {
     position: relative;
     display: table-cell;
     }
+    .navbar-custom .nav li.active a {
+        width: 87%;
+    }
+    .contactborder{
+        width: 87%;
+    }
+    #download h2{
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-height: 400px) {
+    .titlehead {
+        margin-top: -50px;
+    }
+    .intro .intro-body {
+     background-image: url("img/bkfront.png");
+     background-position: bottom;
+     background-size: cover; 
+     bottom: -40px;
+    position: relative;
+    display: table-cell;
+    }
+    .navbar-custom .nav li.active a {
+        width: 87%;
+    }
+    .contactborder{
+        width: 87%;
+    }
+    #download h2{
+        margin-top: 10px;
+    }
+
 }
 
 
