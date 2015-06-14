@@ -490,6 +490,8 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     color: #fff;
+    text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.6);
+    font-size: 30px;
 }
 
 .intro .intro-body .intro-text {
