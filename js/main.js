@@ -48,6 +48,12 @@ $("#btnshake").waypoint(function(){
 }, { offset: '110%'});
     
     
+/*send btn*/
+$('.btn-send').click(function() {
+$(this).hide(200);
+$('.message-send').show(200);
+    });
+    
   /*MENU  Push the body and the menu over  */
 
   $('.hamburger').click(function() {
