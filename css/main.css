@@ -102,7 +102,18 @@ li, a:hover{
 
 #preloader1{
     background: url('../img/browser-tristate.gif') no-repeat -9999px -9999px;
-    
+}
+
+#preloader2{
+    background: url('../img/browser-devish.gif') no-repeat -9999px -9999px;
+}
+
+#preloader3{
+    background: url('../img/browser-ishb.gif') no-repeat -9999px -9999px;
+}
+
+#preloader4{
+    background: url('../img/browser-marinelli.gif') no-repeat -9999px -9999px;
 }
 
 body{
