@@ -25,21 +25,6 @@ $("#btnshake").waypoint(function(){
     $('#btnshake').removeClass('shake');
 }, { offset: '110%'});
     
-    /*form*/
-
-  var message = "";
-
-$("#sendMessage").on("click", function() {
-    message = $("#contactform").serialize();
-    $.ajax({
-        url: "//formspree.io/info.thesqueezylemon@gmail.com", 
-        method: "POST",
-        data: {message: message},
-    });
-    alert('Your message has been sent!');
-    return false;
-});
-    
     
   /*MENU  Push the body and the menu over  */
 

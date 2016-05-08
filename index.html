@@ -49,14 +49,23 @@
     <div class="text-center">
         <h2 class="contact-header">CONTACT.</h2>
         <p class="p-contact"> Have a project in mind? Feel free to send us a message. We’re always happy to discuss the possibilities or answer your questions! </p>
-        <form id="contactform" action="https://formspree.io/info.thesqueezylemon@gmail.com"
+        <form  action="https://formspree.io/info.thesqueezylemon@gmail.com"
             method="POST">
             <input type="text" name="name" display onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name'" placeholder="Name">
             <input type="email" name="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'">
             <textarea name="message" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" ></textarea>
           
-            <button id="sendMessage" class="hvr-fade contact-btn btn-all btn-send" type="submit" value="Send" onclick="sent();">SEND!</button>
+            <button class="hvr-fade contact-btn btn-all btn-send" type="submit" value="Send" onclick="sent();">SEND!</button>
         
+
+            <input type="text" name="_gotcha" style="display:none" />
+
+            <input type="hidden" name="_next" value="#contact"/>
+
+            <script type="text/javascript">
+            var sent = function() {
+            alert('Your message has been sent!')
+            }
             </script>
         </form>
     </div>
