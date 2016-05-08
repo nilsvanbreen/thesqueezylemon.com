@@ -25,11 +25,12 @@ $("#btnshake").waypoint(function(){
     $('#btnshake').removeClass('shake');
 }, { offset: '110%'});
     
-/*send btn*/
-$('.btn-send').click(function() {
-$(this).hide(200);
-$('.message-send').show(200);
-    });
+
+ /*form*/   
+$('#contactForm').submit(function () {
+ sendContactForm();
+ return false;
+});
                      
   /*MENU  Push the body and the menu over  */
 

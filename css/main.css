@@ -100,6 +100,10 @@ li, a:hover{
 /*-----General-------*/
 /*--------------------*/
 
+#preloader1{
+    background: url(img/browser-tristate.gif) no-repeat -9999px -9999px;
+}
+
 body{
     right: 0;
     overflow-x: hidden;
@@ -436,6 +440,7 @@ textarea:active, input:active {
     color: #f95a06;
     margin-top: 0;
 }
+
 /*--------------------*/
 /*-----Menu---------*/
 /*--------------------*/
