@@ -35,7 +35,6 @@ $("#sendMessage").on("click", function() {
         url: "//formspree.io/info.thesqueezylemon@gmail.com", 
         method: "POST",
         data: {message: message},
-        dataType: "json"
     });
     alert('Your message has been sent!');
     return false;
