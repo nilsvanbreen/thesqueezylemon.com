@@ -1,5 +1,27 @@
 var main = function() {
-/*triggers*/
+/*preload gifs delay*/
+    function preloader() {
+	if (document.getElementById) {
+		document.getElementById("preloader1").style.background = "url('../img/browser-tristate.gif') no-repeat -9999px -9999px;";
+		document.getElementById("preloader2").style.background = "url('../img/browser-devish.gif') no-repeat -9999px -9999px;";
+		document.getElementById("preloader3").style.background = "url('../img/browser-ishb.gif') no-repeat -9999px -9999px;";
+        document.getElementById("preloader4").style.background = "url('../img/browser-marinelli.gif') no-repeat -9999px -9999px;";
+	}
+}
+function addLoadEvent(func) {
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+		window.onload = func;
+	} else {
+		window.onload = function() {
+			if (oldonload) {
+				oldonload();
+			}
+			func();
+		}
+	}
+}
+addLoadEvent(preloader);
     /*web*/
 $("#laptop").waypoint(function(){
     $("#laptop").attr("src","img/icon-web1.gif");
