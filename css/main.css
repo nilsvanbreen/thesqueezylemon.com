@@ -338,6 +338,7 @@ object{
 
 .navlogo{
     height: 6.2vh;
+    width: auto;
 }
 
 .hamburger {
@@ -493,6 +494,7 @@ header{
 .lemon {
     margin-top: 16vh;
     height: 31.6vh;
+    width: auto;
 }
 
 .create {
@@ -530,6 +532,7 @@ header{
 .icon-web{
     height: 18.6vh;
     cursor: pointer;
+    width: auto;
 }
 
 .icon-brand{
@@ -577,6 +580,7 @@ header{
 
 .tristate-logo{
     height: 6vh;
+    width: auto;
     margin-top: 7.8vh;
     margin-bottom: 4.7vh;
     padding-right: 10vw;
@@ -588,6 +592,7 @@ header{
     width: 100%;
     cursor: pointer;
     max-width: 900px;
+    height: auto;
 }
 
 .click-browser{
@@ -614,6 +619,7 @@ header{
 
 .devish-logo {
     height: 9vh;
+    width: auto;
     margin-top: 15.5vh;
     margin-bottom: 4.7vh;
 }
@@ -641,6 +647,7 @@ header{
 .ishb-icons {
     margin-top: 4.7vh;
     height: 10vh;
+    width: auto;
     padding-right: 0.7vw;
 }
 
@@ -653,6 +660,7 @@ header{
      padding-right: 0.7vw;
     margin-top: 4.7vh;
     height: 15vh;
+    width: auto; 
 }
 
 /*--------------------*/
@@ -680,22 +688,26 @@ header{
 
 .container-nils{
     position: absolute;
-    margin-left: -11vw;
+    margin-left: 0;
     bottom: 0;
+    z-index: 1000;
 }
 
 .container-bouke{
     position: absolute;
-    margin-left: 71vw;
+    margin-left: 68vw;
     bottom: 0;
 }
 
 .nils{
     height: 90vh;
+    width: auto;
 }
 
 .bouke{
     height: 85vh;
+    width: auto;
+    z-index: 4000;
 }
 
 .team-header{
@@ -705,6 +717,8 @@ header{
 
 .team-text{
   margin-top: 7.8vh; 
+    z-index: 5000;
+    position: relative;
 }
 
 .btn-team {
