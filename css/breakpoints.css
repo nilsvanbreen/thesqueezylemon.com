@@ -123,9 +123,9 @@
 
 /*-------------Tablet landscape----------- */
 @media only screen and (max-width : 1024px) and (min-width : 768px) and (orientation: landscape) {
+/*-------------------------general------------*/     
     .col-md-6{
-        width: 66.66%;
-        
+        width: 66.66%;  
     }
     
     .col-md-4.col50{
@@ -135,9 +135,16 @@
     .col-md-7{
         width: 75%;
     }
+    
     .btn-all{
-        width: 15vw;
+        width: 18vw;
     }
+    
+ /*-------------------------header------------*/   
+    .angle-down{
+    margin-top: 2vh;
+    }
+    
 /*-------------------------team------------*/
     
     .container-nils{

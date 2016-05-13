@@ -701,6 +701,8 @@ header{
     position: relative;
     bottom: 0;
     padding-bottom: 15.5vh;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .container-nils{
