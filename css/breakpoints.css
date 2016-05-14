@@ -254,7 +254,7 @@
 .team{
         padding-bottom: 0;
     }
-
+    
 }
 
 
@@ -431,6 +431,10 @@ textarea{
         
         font-size: 2.5vh;
         text-align: center;
+    }
+
+    .padding-footer {
+        padding-bottom: 4vh;
     }
  
 }
@@ -641,6 +645,8 @@ textarea{
         font-size: 4.5vh;
         text-align: center;
     }  
-    
+    .padding-footer {
+        padding-bottom: 2vh;
+    }
 }
 
