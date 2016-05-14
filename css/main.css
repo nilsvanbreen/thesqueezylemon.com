@@ -9,7 +9,7 @@ h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: 800!important;
     font-size: 9.3vh;
-    color: #f95a06;
+    color: #fff;
     margin-top: 0.5vh;
     margin-bottom: 0;
 }
@@ -517,7 +517,7 @@ header{
 
 .create {
     font-size: 3.7vh;
-    color: #ebebeb;
+    color: #fff;
     margin-top: 3.1vh;
     margin-bottom: 0;
 }
