@@ -67,6 +67,7 @@ if ($(window).width() < 1025) {
      $(this).hide(600);
     $('.icon-close').delay(150).show(400);
 }
+      
 else {    
     $('body').animate({
       right: "33.6vw"
