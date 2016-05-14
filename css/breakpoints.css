@@ -1,0 +1,646 @@
+/*--------------------*/
+/*-----Breakpoints---------*/
+/*--------------------*/
+
+/*-------------Tablet General----------- */
+@media only screen and (max-width : 1024px) and (min-width : 768px) {
+    .col-md-3{
+        width: 33%;
+    }
+    .menu {
+    right: -90vw;
+    width: 90vw;
+    }
+
+.contact{
+    width: 90vw;
+    right: -90vw;
+    }
+
+
+}
+
+/*-------------Tablet portait----------- */
+@media only screen and (max-width : 1024px) and (min-width : 768px)  and (orientation: portrait) {
+    
+/*----------------general----------*/
+
+    .col-sm-6.col100{
+        width: 100%;
+    }
+.btn-all{
+    font-size: 3.8vh;
+    height: 7vh;
+    width: 35vw;
+    border-width: 0.6vh;
+    
+    }
+    .col-sm-4.col100{
+        width: 100%;
+    }
+    .col-sm-8,.col-sm-9{
+        width: 100%;
+    }
+/*-----------services--------*/
+.hide-icon {
+    display: none;
+    }  
+.icon-brand-phone {
+    display: inline;
+    }
+.h-brand{
+    margin-top: 1vh;
+    }
+.icon-uiux-phone {
+     display: inline;
+    }
+.h-uiux{
+    margin-top: 5vh;
+    }
+
+.contact-services{
+    margin-top: 15vh;
+    }
+
+
+.icon-web {
+    height: 25vh;
+}
+
+.icon-brand-phone {
+    margin-left: 9vw;
+    margin-top: 8vh;
+    height: 30vh;
+    }
+
+.icon-uiux-phone {
+    margin-top: 8vh;
+    height: 27vh;
+    }
+
+
+.container-bouke, .container-nils{
+        display: none;
+    }
+    .team-phone{
+        display: inline;
+        width: 100%;
+        padding-top: 5vh;
+    }
+        
+.team{
+        padding-bottom: 0;
+    }
+
+/*-------------footer-----------*/
+    .col-sm-4.col45{
+        width: 45%;
+    }
+    .footer-logo{
+        width: 100%;
+    }
+    .footer-middle.align-bottom{
+        float: right;
+        }
+    .footer-left.align-bottom{
+        float: left;
+    }
+    .icons{
+        margin-top: 6vh;
+        padding: 0;
+    }
+    .footer-textleft{
+        line-height: 90%;
+        padding-bottom: 4vh;
+    }
+    .footer-textright{
+        font-size: 2.5vh;
+        text-align: center;
+    }
+
+}
+
+
+/*-------------Tablet landscape----------- */
+@media only screen and (max-width : 1024px) and (min-width : 768px) and (orientation: landscape) {
+/*-------------------------general------------*/     
+    .col-md-6{
+        width: 66.66%;  
+    }
+    
+    .col-md-4.col50{
+        width: 50%;
+    }
+    
+    .col-md-7{
+        width: 75%;
+    }
+    
+    .btn-all{
+        width: 18vw;
+    }
+    
+ /*-------------------------header------------*/   
+    .angle-down{
+    margin-top: 2vh;
+    }
+    
+/*-------------------------team------------*/
+    
+    .container-nils{
+        margin-left: -10vw;
+    }
+    
+    .container-bouke{
+        margin-left: 75vw;
+    }
+    
+    .nils{
+        height: 75vh;
+    }
+    
+    .bouke{
+        height: 70vh;
+    }
+}
+
+
+/*-------------Large desktop----------- */
+@media only screen and (min-width : 1450px) {
+    
+.click-browser.text-left{
+    text-align: center;
+}
+    }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 767px){
+    
+/*-----------general-------------*/
+    
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.navbar-fixed-top,.navbar{
+    padding-top: 3vh;
+}
+
+.menu{
+    padding-top: 3vh;
+    }
+
+/*------------------------header-nav--------------*/
+.btn-header{
+    margin-top:6.5vh;
+ }
+
+.angle-down{
+    margin-top: 2vh;
+    }
+
+.menu {
+    right: -90vw;
+    width: 90vw;
+    }
+
+.contact{
+    width: 90vw;
+    right: -90vw;
+    }
+    
+/*-------contact-----*/
+.textarea{
+    height: 30vh;
+    }
+
+.btn-send{
+    margin-bottom: 10vh;
+    }
+
+/*-----------services--------*/
+.hide-icon {
+    display: none;
+    }  
+.icon-brand-phone {
+    display: inline;
+    }
+.h-brand{
+    margin-top: 1vh;
+    }
+.icon-uiux-phone {
+     display: inline;
+    }
+.h-uiux{
+    margin-top: 5vh;
+    }
+
+.contact-services{
+    margin-top: 15vh;
+    }
+
+    /*-------team-----*/
+
+.container-bouke, .container-nils{
+        display: none;
+    }
+    .team-phone{
+        display: inline;
+    }
+        
+.team{
+        padding-bottom: 0;
+    }
+
+}
+
+
+/* Smartphones portrait ----------- */
+@media only screen and (max-width : 767px) and (orientation : portrait){  
+    
+/*-----nav/header----*/
+.navlogo{
+    height: 7.2vh;
+    }
+
+.hamburger{
+    font-size: 6vh;
+    margin-top: -1.2vh;
+    }
+
+.lemon{
+    margin-top:14vh;
+    }
+
+h1{
+    font-size: 8vh;
+    }
+    
+.btn-all{
+    font-size: 3.8vh;
+    height: 7vh;
+    width: 45vw;
+    border-width: 0.6vh;
+    
+    }
+.angle-down{
+    font-size: 5vh;
+    } 
+
+/*-----general----*/
+p{
+    font-size: 3.8vh;
+    }
+h3{
+    font-size: 6vh;
+    }
+h4{
+    font-size: 3vh;
+    }
+
+/*-----menu----*/
+    
+.icon-close{
+    font-size: 6vh;
+    margin-top: -1.2vh;
+    margin-right: 3vw;
+    }
+    
+
+/*-----Contact----*/
+
+input{
+    font-size: 3.8vh;
+    height: 9vh;
+    border-radius: 2vh;
+    }
+
+textarea{
+    font-size: 3.8vh;
+    border-radius: 2vh;
+    }
+/*--------services-------*/
+
+.services{
+    padding-top: 10vh;
+    margin-bottom: 10vh;
+    }
+    
+
+.icon-web {
+    height: 25vh;
+}
+
+.icon-brand-phone {
+    margin-left: 9vw;
+    margin-top: 8vh;
+    height: 30vh;
+    }
+
+.icon-uiux-phone {
+    margin-top: 8vh;
+    height: 27vh;
+    }
+
+/*-------Work1------*/
+
+.work1{
+    padding-top: 6vh;
+    padding-bottom: 10vh;
+    }
+
+.tristate-logo{
+    height: 8vh;
+    }
+    
+.click-browser {
+        font-size: 3vh;
+    }
+    .tristate-icons {
+        font-size: 10vh;
+    }
+
+/*-------Work2------*/
+.work2{
+    padding-bottom: 10vh;
+    }
+.devish-logo{
+    margin-top: 10vh;
+    height: 10vh;
+    }
+.devish-icons{
+    font-size: 8.5vh;
+    }
+    
+/*-----------work3-----------*/
+.work3{
+    padding-bottom: 10vh;
+    }
+    
+.browser-ishb{
+    margin-top: 10vh;
+    }
+
+/*-------------work4--------------*/
+.work4{
+        padding-top: 10vh;
+    padding-bottom: 0;
+    }
+    
+    
+/*-----more work----*/
+.btn-morework{
+    padding-bottom: 10vh;
+}
+
+/*----------team--------*/
+.team-header{
+        margin-top: 10vh;
+    }
+    
+
+    .team-phone{
+      
+        width: 100%;
+        margin-top: 5vh;
+    }
+/*-------------footer-----------*/
+
+    .footer-logo{
+        width: 100%;
+    }
+    .footer-middle.align-bottom{
+        float: right;
+        }
+    .footer-left.align-bottom{
+        float: left;
+    }
+    .icons{
+        margin-top: 6vh;
+        padding: 0;
+    }
+    .footer-textleft{
+        line-height: 90%;
+        padding-bottom: 4vh;
+        float: none;
+    }
+    .footer-textright{
+        
+        font-size: 2.5vh;
+        text-align: center;
+    }
+ 
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 767px) and (orientation: landscape) {
+  
+.navbar, .navbar-fixed-top{
+    padding-top: 5vh;
+    }
+.navlogo{
+    height: 12vh;
+    }
+
+.hamburger{
+    font-size: 10vh;
+    margin-top: -2vh;
+    }
+
+.phonemargin{
+    margin-top: 5vh;
+    }
+    
+.lemon{
+    margin-top: 3vh;
+    height: 57vh;
+    }
+    
+.lemonleft{
+    float: left;
+    }
+    
+.headerright{
+    margin-top: 5vh;
+    float: middle;
+    display: inline-block;
+    text-align: center;
+    }
+
+
+    
+.create{
+    font-size: 7vh;
+    }
+    
+.btn-all {
+    font-size: 6vh;
+    height: 10vh;
+    width: 22vw;
+    border-width: 1vh;
+    border-radius: 5vh;
+    }
+
+.angle-down{
+    margin-top: 0;
+    float: right;
+    font-size: 7vh;
+    }
+    
+/*-----general----*/
+h1{
+    font-size: 14vh;
+    }
+    
+h2{
+    font-size: 12vh;
+    }
+
+h3{
+    font-size: 12vh;
+    }
+h4{
+    font-size: 5vh;
+    }
+
+p{
+    font-size: 6vh;
+    }
+
+li, a{
+    font-size: 9vh;
+    margin-bottom: 5vh;
+    }
+
+/*-----menu----*/
+    
+.menu{
+    overflow: scroll;
+    overflow-x: hidden;
+    }
+    
+.icon-close{
+    font-size: 10vh;
+    margin-right: 3vw;
+    }
+    
+.menu-header{
+    margin-bottom: 10vh;
+    }
+    
+
+/*-----Contact----*/
+
+input{
+    font-size: 5vh;
+    height: 12vh;
+    border-radius: 2.5vh;
+    margin-bottom: 4.5vh;
+    }
+
+textarea{
+    font-size: 5vh;
+    border-radius: 2.5vh;
+    }
+
+/*--------services-------*/
+   
+
+
+.icon-web {
+    height: 35vh;
+}
+
+.icon-brand-phone {
+    margin-left: 3vw; 
+    margin-top: 10vh;
+    height: 40vh;
+    }
+
+
+
+.icon-uiux-phone {
+    margin-top: 10vh;
+    height: 38vh;
+   
+    }
+
+/*-------Work1------*/
+
+
+.tristate-logo{
+    height: 15vh;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    
+    }
+    
+.click-browser {
+        font-size: 5vh;
+    }
+.tristate-icons {
+        font-size: 20vh;
+    }
+
+/*-------Work2------*/
+
+.devish-logo{
+    height: 18vh;
+    margin-bottom: 10vh;
+    }
+.devish-icons{
+    font-size: 15vh;
+    }
+    
+/*-----------work3-----------*/
+    .ishb-icons {
+        height: 25vh;
+    }
+  
+
+/*-------------work4--------------*/
+    .mar-icons{
+        height: 30vh;
+    }
+    
+ /*----------------team---------------*/
+/*----------team--------*/
+
+
+    .team-phone{
+       
+        width: 50%;
+        margin-top: 10vh;
+    }
+
+
+/*------footer-----*/
+ 
+    .footer-middle.align-bottom{
+        float: right;
+        }
+    .footer-left.align-bottom{
+        float: left;
+    }
+    .icons-social{
+        font-size: 13vh;
+    }
+    .icons{
+        margin-top: 6vh;
+        padding: 0;
+    }
+    .footer-textleft{
+        line-height: 100%;
+        font-size: 5vh;
+        padding-bottom: 4vh;
+    }
+    .footer-textright{
+        font-size: 4.5vh;
+        text-align: center;
+    }  
+    
+}
+
