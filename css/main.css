@@ -468,6 +468,7 @@ textarea:active, input:active {
     height: 100vh;
     padding-top: 3.9vh;
     position: fixed;
+    visibility: hidden;
     width: 33.6vw;
     z-index: 1000;
 }

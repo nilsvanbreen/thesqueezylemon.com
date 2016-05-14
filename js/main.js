@@ -59,21 +59,18 @@ $('.message-send').show(200);
   $('.hamburger').click(function() {
 
 if ($(window).width() < 1025) {
-      $('body').animate({
-      right: "90vw"
-    }, 200);
+  
+     $('.menu').css({visibility: "visible"});
+    $('.menu').animate({right: "0px"}, 200);
     
-    $('.menu').animate({right: "0"}, 200);
      $(this).hide(600);
     $('.icon-close').delay(150).show(400);
 }
       
 else {    
-    $('body').animate({
-      right: "33.6vw"
-    }, 200);
-    
-    $('.menu').animate({right: "0px"}, 200);
+
+    $('.menu').css({visibility: "visible"});
+    $('.menu').animate({right: "0px",}, 200);
      $(this).hide(600);
     $('.icon-close').delay(150).show(400);
     }  
@@ -82,14 +79,14 @@ else {
     $('.icon-close, li a').click(function() {
      
 if ($(window).width() < 1025) {
-        $('body').animate({right: "0"}, 200);
+        $('.menu').css({visibility: "hidden"});
         $('.menu').animate({right: "-90vw"}, 200);
         $('.hamburger').slideDown(500);
         $('.icon-close').hide(75);
     }
         
 else{
-        $('body').animate({right: "0"}, 200);
+        $('.menu').css({visibility: "hidden"});
         $('.menu').animate({right: "-33.6vw"}, 200);
         $('.hamburger').slideDown(500);
         $('.icon-close').hide(75);
@@ -100,19 +97,15 @@ else{
 
   $('.contact-btn').click(function() {
 if ($(window).width() < 1025) {
-    $('body').animate({
-      right: "90vw"
-    }, 200);
-    
+
+    $('.contact').css({visibility: "visible"});
     $('.contact').animate({right: "0"}, 200);
     $('.icon-close').delay(150).show(400); 
     
 }
  else{
-    $('body').animate({
-      right: "33.6vw"
-    }, 200);
-    
+   
+    $('.contact').css({visibility: "visible"});
     $('.contact').animate({right: "0"}, 200);
     $('.icon-close').delay(150).show(400);
      }
@@ -120,16 +113,12 @@ if ($(window).width() < 1025) {
     
       $('.icon-close').click(function() {
 if ($(window).width() < 1025) {
-      $('body').animate({
-            right: "0"
-        }, 200);
+        $('.contact').css({visibility: "hidden"});
         $('.contact').animate({right: "-90vw"}, 200);
         $('.icon-close').hide(75);
 }
 else{
-        $('body').animate({
-            right: "0"
-        }, 200);
+        $('.contact').css({visibility: "hidden"});
         $('.contact').animate({right: "-33.6vw"}, 200);
         $('.icon-close').hide(75);
     }
