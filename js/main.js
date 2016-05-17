@@ -144,7 +144,34 @@ $("#js-rotating").Morphext({
         // Called after the entrance animation is executed.
     }
 });
+/*tristate*/
+$('img.hover-tristate').hover(function(){
+    $(this).attr('src','img/browser-tristate-hover.jpg');
+},function(){
+     $(this).attr('src','img/browser-tristate.jpg'); 
+});
 
+/*devish*/
+$('img.hover-devish').hover(function(){
+    $(this).attr('src','img/browser-devish-hover.jpg');
+},function(){
+     $(this).attr('src','img/browser-devish.jpg'); 
+});
+
+/*ishb*/
+$('img.hover-ishb').hover(function(){
+    $(this).attr('src','img/browser-ishb-hover.jpg');
+},function(){
+     $(this).attr('src','img/browser-ishb.jpg'); 
+});
+
+/*marinelli*/
+$('img.hover-marinelli').hover(function(){
+    $(this).attr('src','img/browser-marinelli-hover.jpg');
+},function(){
+     $(this).attr('src','img/browser-marinelli.jpg'); 
+});
+    
 /*show more*/
 $('.btn-more').click(function() {
 $('.work3,.work4').slideDown(600);
