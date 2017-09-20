@@ -174,7 +174,7 @@ $('img.hover-marinelli').hover(function(){
     
 /*show more*/
 $('.btn-more').click(function() {
-$('.work3,.work4').slideDown(600);
+$('.work4,.work5').slideDown(600);
 $(this).hide(600).delay(400)    
 });
 

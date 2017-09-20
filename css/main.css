@@ -70,6 +70,14 @@ a:link, a:visited, a:hover, a:active{
          url('../font/squeezy-font.svg#svgsqueezy-font') format('svg');
     }
 
+@font-face {
+    font-family: 'urbansign-iconfont';
+    src: url('../font/urbansign-iconfont.eot?#iefix') format('embedded-opentype'), 
+         url('../font/urbansign-iconfont.woff') format('woff'), 
+         url('../font/urbansign-iconfont.ttf')  format('truetype'),
+         url('../font/urbansign-iconfont.svg#svgsqueezy-font') format('svg');
+    }
+
 p{
     font-family: 'Open Sans', sans-serif;
     font-size: 2.5vh;
@@ -596,6 +604,24 @@ header{
     padding-bottom: 15.5vh;
 }
 
+.urbansign-icons{
+    margin-top: 4.7vh;
+    font-size: 7.8vh;
+    letter-spacing: 0.15em;
+    font-family: 'urbansign-iconfont';
+    word-break: break-all;
+    line-height: 120%;
+}
+
+.urbansign-logo{
+    height: 6vh;
+    width: auto;
+    margin-top: 7.8vh;
+    margin-bottom: 4.7vh;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
 .tristate-logo{
     height: 6vh;
     width: auto;
@@ -655,7 +681,6 @@ header{
 .work3{
     background-color: #e1e1e1; 
     padding-bottom: 15.5vh;
-    padding-top: 15.5vh;
 }
 
 .browser-ishb{
@@ -674,10 +699,15 @@ header{
 .work4{
     background-color: #fff; 
     padding-top: 15.5vh;
+    padding-bottom: 15.5vh;
 }
 
+.work5{
+    background-color: #e1e1e1; 
+    padding-top: 15.5vh;
+}
 .mar-icons {
-     padding-right: 0.7vw;
+    padding-right: 0.7vw;
     margin-top: 4.7vh;
     height: 15vh;
     width: auto; 
@@ -687,14 +717,16 @@ header{
 /*-----more work---------*/
 /*--------------------*/
 
-.work3,.work4{
+.work4,.work5{
     display: none;
 }
 
 .btn-morework{
     padding-top: 0;
     padding-bottom: 15.5vh;
+    background-color: #e1e1e1; 
 }
+
 /*--------------------*/
 /*-----team---------*/
 /*--------------------*/
@@ -738,7 +770,7 @@ header{
 }
 
 .team-text{
-  margin-top: 7.8vh; 
+    margin-top: 7.8vh; 
     z-index: 5000;
     position: relative;
 }
